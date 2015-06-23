@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c745a0bf-a94e-4a07-abcd-22684a85f150" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61645/MoneyAddService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MoneyAddService.xsd" MetadataType="Schema" ID="198db03c-f721-4a7c-88f4-490e91183c2f" SourceId="1" SourceUrl="http://localhost:61645/MoneyAddService.svc?xsd=xsd1" />
+    <MetadataFile FileName="MoneyAddService1.xsd" MetadataType="Schema" ID="8c35f1ae-3bc2-4619-874f-6cea61f389a1" SourceId="1" SourceUrl="http://localhost:61645/MoneyAddService.svc?xsd=xsd0" />
+    <MetadataFile FileName="MoneyAddService.disco" MetadataType="Disco" ID="6b789f8e-b0cf-423e-8cce-13ffadc33bd5" SourceId="1" SourceUrl="http://localhost:61645/MoneyAddService.svc?disco" />
+    <MetadataFile FileName="MoneyAddService.wsdl" MetadataType="Wsdl" ID="17f0d5a5-28a3-4c76-98cd-87240ef66fc4" SourceId="1" SourceUrl="http://localhost:61645/MoneyAddService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
